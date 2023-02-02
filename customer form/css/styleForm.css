@@ -1,0 +1,66 @@
+:root {
+    --main-color: #09092a; 
+    --second-color: #4d4dff;
+    --font-color1: #ffffff;
+    --font-color2: #aaa;
+    --content-color: #eee;
+}
+/* global var*/
+
+.content {
+    margin-left: 0 !important;
+    background-color: #f7f7f7 !important;
+}
+
+.contenForm {
+    padding: 30px;
+}
+
+.contenForm h1{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+}
+
+.content .contenForm .top-of-form {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 40px;
+}
+
+.content .contenForm .top-of-form .box1 {
+    width: 25%;
+}
+
+.content .contenForm .box1 h4 {
+    
+}
+
+.content .contenForm .box1 p {
+    color: var(--font-color2);
+}
+
+.content .contenForm .box2 {
+    width: 72%;
+}
+
+.content .contenForm .bottom-of-form {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.content .contenForm .box2 button {
+    border: none;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.warning {
+    color: #ff5454 !important;
+    background-color: #ffcdcd !important;
+    border-color: #ff5454 !important;
+}
